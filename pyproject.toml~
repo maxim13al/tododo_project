@@ -1,4 +1,0 @@
-[tool.ruff]
-line-length = 79
-ignore = ["F811", "F403"]
-

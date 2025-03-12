@@ -10,3 +10,7 @@ screenshots
 .ruff_cache
 __pycache__/
 .pytest_cache/
+
+README.md~
+pyproject.toml~
+requirements.txt~
