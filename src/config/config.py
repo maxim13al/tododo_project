@@ -1,0 +1,23 @@
+import os
+from dotenv import load_dotenv
+
+
+load_dotenv()
+
+AUTOMATION_NAME = os.getenv("AUTOMATION_NAME")
+PLATFORM_NAME = os.getenv("PLATFORM_NAME")
+
+REAL_DEVICE_NAME = os.getenv("REAL_DEVICE_NAME")
+EMULATOR_DEVICE_NAME = os.getenv("EMULATOR_DEVICE_NAME")
+EMULATOR_AVD = os.getenv("EMULATOR_AVD")
+
+APP_PACKAGE = os.getenv("APP_PACKAGE")
+APP_ACTIVITY = os.getenv("APP_ACTIVITY")
+
+LOCAL_APPIUM_SERVER = os.getenv("LOCAL_APPIUM_SERVER")
+REMOTE_APPIUM_SERVER = os.getenv("REMOTE_APPIUM_SERVER")
+
+NEW_COMMAND_TIMEOUT = int(os.getenv("NEW_COMMAND_TIMEOUT"))
+WAIT_FOR_IDLE_TIMEOUT = int(os.getenv("WAIT_FOR_IDLE_TIMEOUT"))
+
+APP_PATH = os.getenv("APP_PATH")
