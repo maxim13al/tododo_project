@@ -7,7 +7,7 @@ load_dotenv()
 AUTOMATION_NAME = "uiautomator2"
 PLATFORM_NAME = "Android"
 
-BS_USER_NAME = os.getenv("BS_USERNAME")
+BS_USER_NAME = os.getenv("BS_USER_NAME")
 BS_ACCESS_KEY = os.getenv("BS_ACCESS_KEY")
 BS_APP_ID = os.getenv("BS_APP_ID")
 
