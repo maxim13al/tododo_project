@@ -7,9 +7,9 @@ jobs:
   run-tests:
     runs-on: ubuntu-latest
     env:
-      BS_USER_NAME: ${{ env.BS_USER_NAME }}
-      BS_ACCESS_KEY: ${{ env.BS_ACCESS_KEY }}
-      BS_APP_ID: ${{ env.BS_APP_ID }}
+      BS_USER_NAME: ${{ secrets.BS_USER_NAME }}
+      BS_ACCESS_KEY: ${{ secrets.BS_ACCESS_KEY }}
+      BS_APP_ID: ${{ secrets.BS_APP_ID }}
     name: Run Appium Tests
     steps:
       - name: Checkout Repository
