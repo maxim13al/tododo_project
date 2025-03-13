@@ -1,0 +1,12 @@
+name: Automated tests
+
+on:
+    push:
+        branches: # переделать на запуск в ручную
+            - main
+    pull_request:
+        branches:
+            - main
+
+jobs:
+    test:

@@ -18,8 +18,8 @@ EMULATOR_AVD = "Pixel_XL_API_30"
 APP_PACKAGE = "com.mdev.tododo"
 APP_ACTIVITY = "com.mdev.tododo.ui.MainActivity"
 
-LOCAL_SERVER = "http://localhost:4723"
-REMOTE_SERVER = "hub-cloud.browserstack.com/wd/hub"
+LOCAL_SERVER = os.getenv("LOCAL_SERVER")
+REMOTE_SERVER = os.getenv("REMOTE_SERVER")
 
 BS_DEVICE_NAME = "Samsung Galaxy S21"
 BS_OS_VERSION = 11

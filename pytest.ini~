@@ -3,5 +3,5 @@ testpaths = src
 reruns = 0
 addopts =
     -v -s
-;    --clean-alluredir
-;    --alluredir=allure-results
+    --clean-alluredir
+    --alluredir=allure-results

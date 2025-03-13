@@ -22,9 +22,9 @@ def pytest_addoption(parser):
     parser.addoption(
         "--server",
         action="store",
-        default="remote_server",
+        default="local_server",
         choices=["local_server", "remote_server"],
-        help="Выбор сервера: 'remote_server' (по умолчанию) или 'local_server'",
+        help="Выбор сервера: 'local_server' (по умолчанию) или 'remote_server'",
     )
     parser.addoption(
         "--log_level",
