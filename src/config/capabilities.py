@@ -19,7 +19,7 @@ def get_capabilities(device_type: str, server: str) -> UiAutomator2Options:
     options.new_command_timeout = config.NEW_COMMAND_TIMEOUT
 
     if server == "remote_server":
-        options.browserstack_user = config.BS_USERNAME
+        options.browserstack_user = config.BS_USER_NAME
         options.browserstack_key = config.BS_ACCESS_KEY
         options.app = config.BS_APP_ID
         options.device_name = config.BS_DEVICE_NAME

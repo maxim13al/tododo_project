@@ -27,5 +27,5 @@ BS_PROJECT_NAME = "Tododo_project"
 BS_BUILD_NAME = "Tododo_build"
 BS_NAME = "New_auto_test"
 
-NEW_COMMAND_TIMEOUT = 60
+NEW_COMMAND_TIMEOUT = 30
 WAIT_FOR_IDLE_TIMEOUT = 1
