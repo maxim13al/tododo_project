@@ -77,6 +77,7 @@ def driver(request, base_server, logger, device_type):
         user_name = config.BS_USER_NAME
         access_key = config.BS_ACCESS_KEY
         server = config.REMOTE_SERVER
+        print(user_name, access_key, server)
         appium_server = f"https://{user_name}:{access_key}@{server}"
     else:
         appium_server = config.LOCAL_SERVER
